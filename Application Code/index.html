@@ -18,6 +18,8 @@
     }
     
     header {
+      position: fixed;
+      top: 0;
       background-color: #12232E;
       padding: 10px;
       text-align: center;
@@ -27,16 +29,12 @@
     }
     
     footer {
+      position: fixed;
+      bottom: 0;
       background-color: #12232E;
       padding: 10px;
       text-align: center;
       color: #FFF0F5;
-      margin: 0;
-      position: absolute;
-      top: 85%;
-      left: 75%;
-      -ms-transform: translate(-10%);
-      transform: translate(-10%);
     }
     
     /* Responsive layout */
@@ -97,29 +95,17 @@
   </style>
 </head>
 
-<body>
+<body data-new-gr-c-s-check-loaded="14.984.0" data-gr-ext-installed="" class="vsc-initialized">
+  
   <header>
     <h2> Vote Gauge - Make Your Vote Count! </h2>
-  </header>
-  
-  <button type="button" class="btn btn-lg btn-primary voter" onclick="alert('Work in Progress!')"> Voter Login </button>
-  <button type="button" class="btn btn-lg btn-primary admin" onclick="alert('Work in Progress!')"> Admin Login </button>
-  
+  </header><div class="container btn-group sm-2 md-2 lg-2 xs-2">
+  <button type="button" class="btn btn-lg btn-primary cc_pointer" onclick="alert('Work in Progress!')"> Voter Login </button>
+  <button type="button" class="btn btn-lg btn-primary cc_pointer" onclick="alert('Work in Progress!')"> Admin Login </button>
+    </div>
   <footer>
-    <p> &copy; 2020 - Shirsh Khandelia & Kunal Ghosh </p>
+    <p> © 2020 - Shirsh Khandelia &amp; Kunal Ghosh </p>
   </footer>
 
-    <div class="container"> 
-        <svg viewBox="0 0 500 500" 
-            preserveAspectRatio="xMinYMin meet"
-            style="z-index: -2;"> 
-              
-            <path d="M0, 100 C150, 200 350, 
-                0 500, 100 L500, 00 L0, 0 Z" 
-                style="stroke: none;  
-                fill:rgba(18, 35, 46, 0.9);">
-            </path> 
-        </svg> 
-    </div>
 </body>
 </html>
