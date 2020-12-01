@@ -59,6 +59,14 @@
       top: 0;
       left: 0;
     }
+    
+    .center-line {
+      position: absolute;
+      top: 50%;
+      justify-content: center;
+      align-items: center;
+      display: block;
+    }
 
     .voter {
       background-color: #4DA8DA;
@@ -67,14 +75,6 @@
       left: 35%;
       -ms-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%);
-    }
-    
-    .center-line {
-      position: absolute;
-      top: 50%;
-      justify-content: center;
-      align-items: center;
-      display: block;
     }
     
     .admin {
@@ -93,10 +93,10 @@
   <div class='container-fluid btn-group align-middle center-line'> 
     <div class="row">
       <div class="col rounded">
-        <button type="button" class="btn btn-lg btn-block btn-primary xs-1 sm-1 col" onclick="window.location.href = '../voter.html';"> Voter Login </button>
+        <button type="button" class="btn btn-lg btn-block btn-primary xs-1 sm-1 col voter" onclick="window.location.href = './voter-login.html';"> Voter Login </button>
       </div>
       <div class="col rounded">
-        <button type="button" class="btn btn-lg btn-block btn-primary xs-1 sm-1 col" onclick="window.location.href = '../admin.html';"> Admin Login </button>
+        <button type="button" class="btn btn-lg btn-block btn-primary xs-1 sm-1 col admin" onclick="window.location.href = './admin-login.html';"> Admin Login </button>
       </div>
     </div>
   </div>
