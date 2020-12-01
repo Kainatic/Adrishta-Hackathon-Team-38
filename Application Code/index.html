@@ -17,22 +17,22 @@
       margin: none;
     }
     
-    header {
-      position: fixed;
-      top: 0;
+    .page-header {
       background-color: #12232E;
-      padding: 10px;
+      width: 100vw;
       text-align: center;
       font-size: 25px;
-      color: #FFF0F5;
-      text-decoration: underline;
+      color: #0fFfff;
+      position: fixed;
+      top: 0;
     }
     
     footer {
-      position: fixed;
       bottom: 0;
+      position: fixed;
+      height: auto;
+      width: 100vw;
       background-color: #12232E;
-      padding: 10px;
       text-align: center;
       color: #FFF0F5;
     }
@@ -60,48 +60,49 @@
       left: 0;
     }
 
-    button {
-      border: none;
-      border-radius: 15px;
-      color: #FFF0F5;
-      padding: 15px 32px;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 36px;
-      margin: 4px 2px;
-      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-      cursor: pointer;
-      z-index: 2;
-    }
-
     .voter {
       background-color: #4DA8DA;
       position: absolute;
       top: 50%;
       left: 35%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+    }
+    
+    .center-line {
+      position: absolute;
+      top: 50%;
+      justify-content: center;
+      align-items: center;
+      display: block;
     }
     
     .admin {
       background-color: #203647;
-      position: absolute;
-      top: 50%;
       left: 65%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
     }
   </style>
 </head>
 
-<body data-new-gr-c-s-check-loaded="14.984.0" data-gr-ext-installed="" class="vsc-initialized">
-  
-  <header>
+<body>
+  <header class="page-header">
     <h2> Vote Gauge - Make Your Vote Count! </h2>
-  </header><div class="container btn-group sm-2 md-2 lg-2 xs-2">
-  <button type="button" class="btn btn-lg btn-primary cc_pointer voter" onclick="alert('Work in Progress!')"> Voter Login </button>
-  <button type="button" class="btn btn-lg btn-primary cc_pointer admin" onclick="alert('Work in Progress!')"> Admin Login </button>
+  </header>
+  <div class='container-fluid btn-group align-middle center-line'> 
+    <div class="row">
+      <div class="col">
+        <button type="button" class="btn btn-lg btn-primary xs-2 sm-2 col" onclick="alert('Work in Progress!')"> Voter Login </button>
+      </div>
+      <div class="col">
+        <button type="button" class="btn btn-lg btn-primary xs-2 sm-2 col" onclick="alert('Work in Progress!')"> Admin Login </button>
+      </div>
     </div>
+  </div>
+  
   <footer>
-    <p> &copy; 2020 - Shirsh Khandelia &amp; Kunal Ghosh </p>
+    <p> &copy; 2020 - Shirsh Khandelia & Kunal Ghosh </p>
   </footer>
-
 </body>
 </html>
