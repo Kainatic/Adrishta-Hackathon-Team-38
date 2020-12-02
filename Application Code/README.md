@@ -35,9 +35,9 @@ To Run:-
 ### Team Members
 |Member Name|Email|Contribution|
 |-----------|-----|------------|
+|Abhijeet Kumar|abhijeetkumar12346@gmail.com|Web Dev, Database|
 |Shirsh Khandelia|shirshkhandelia@gmail.com|Architecture, Framework|
 |Kunal Ghosh|kunalghosh5135@gmail.com|Documentation, Content|
-|Abhijeet Kumar|abhijeetkumar12346@gmail.com|Web Dev, Database|
 
 ### References
 <references>
