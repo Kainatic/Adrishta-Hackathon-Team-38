@@ -27,7 +27,7 @@ Technologies Used:-
 *	Back-end: FireBase, Netlify
 
 To Run:-
-*	Open this link: /<link here> (or clone the repository in your local storage).
+*	Open this link: https://voting-site.netlify.app/A (or clone the repository in your local storage).
 
 ### Screenshots
 <screenshots>
