@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+## Team Number 38 - Vote Gauge
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Project Overview
 
-## Available Scripts
+In this present pandemic period, the digital approach has been the most effective then one has ever thought off. There is always a need to assess every individual’s choice and opinion. According to the traditional method, the only way that was carried out was voting and discussion sessions, while the discussion has skilled up to virtual meeting and there still seems space for considering public voting system. Now online voting system could be the only key to handle such situations in this adverse condition, if and only if the security and the anonymity of the voters are secured. This system of voting could bring a revolution in any adverse situation.
 
-In the project directory, you can run:
+In the project “VOTE GAUGE”, we tried to device a user friendly yet secured process to carry out students voting process. As per the problem mentioned, we have access to the email id’s of the voters, we can easily map out the valid voters and also make sure of the presence of the fake voters. This project could be used in large scale with minor upgradations.
 
-### `yarn start`
+### Solution Description
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+A website made by us in this project has several routes but only the admins are given the admin route in which we added the minute details of the voting, the nominies and the list of the voters (.json file with every details).
+* The voters can login and vote when the voting is live.
+* The server processes the request as soon as the voter chooses the party and submits it finally.
+* The server checks if the voter is in the voting list provided by the admin.
+* It further checks if the user has already voted, if yes the voter will be not be allowed to vote and a message will be displayed.
+* The number of votes would be added to the Nominee as voted by the voters.
+* A message is displayed when the voting is over.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+#### Architecture Diagram
 
-### `yarn test`
+<architecture diagram>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### Technical Description
 
-### `yarn build`
+Technologies Used:-
+* Front-end: HTML, CSS, React.js, Bootstrap
+*	Back-end: FireBase, Netlify
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To Run:-
+*	Open this link: https://voting-site.netlify.app/A (or clone the repository in your local storage).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Screenshots
+<screenshots>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Team Members
+|Member Name|Email|Contribution|
+|-----------|-----|------------|
+|Shirsh Khandelia|shirshkhandelia@gmail.com|Architecture, Framework|
+|Kunal Ghosh|kunalghosh5135@gmail.com|Documentation, Content|
+|Abhijeet Kumar|abhijeetkumar12346@gmail.com|Web Dev, Database|
 
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### References
+<references>
