@@ -27,7 +27,7 @@ Technologies Used:-
 *	Back-end: FireBase, Netlify
 
 To Run:-
-*	Open this link: https://voting-site.netlify.app/A (or clone the repository in your local storage).
+*	Open this link: [voting-gauge](https://voting-gauge.netlify.app) (or clone the repository in your local storage).
 
 ### Screenshots
 <screenshots>
@@ -35,9 +35,9 @@ To Run:-
 ### Team Members
 |Member Name|Email|Contribution|
 |-----------|-----|------------|
-|Abhijeet Kumar|abhijeetkumar12346@gmail.com|Web Dev, Database|
-|Shirsh Khandelia|shirshkhandelia@gmail.com|Architecture, Framework|
-|Kunal Ghosh|kunalghosh5135@gmail.com|Documentation, Content|
+|[Abhijeet Kumar](https://github.com/Abhijeet1520)|abhijeetkumar12346@gmail.com|Web Dev, Database|
+|[Shirsh Khandelia](https://github.com/Kainatic)|shirshkhandelia@gmail.com|Architecture, Framework|
+|[Kunal Ghosh](https://github.com/#)|kunalghosh5135@gmail.com|Documentation, Content|
 
 ### References
 <references>
